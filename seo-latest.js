@@ -123,7 +123,7 @@ var mkj_SB = {
 		if(!d.getElementById('mkjCSS_SEO')){
 			css.type = 'text/css';
 			css.rel = 'stylesheet';
-			css.href = urlDP+'codeberg.org/mikklos/seo-bookmarklet/raw/branch/main/seo-'+version+'.css?ts='+da.getTime();
+			css.href = urlDP+'raw.githubusercontent.com/mikklos/seo-bookmarklet/refs/heads/main/seo-'+version+'.css?ts='+da.getTime();
 			css.id = 'mkjCSS_SEO';
 			h.appendChild(css);
 		}
